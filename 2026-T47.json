@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "iso_week": "2026-T47",
+  "generated_at": "2026-11-20T15:20:01.698792+00:00",
+  "window_start": "2026-11-13T15:20:01.698792+00:00",
+  "sources": {
+    "espo": {
+      "status": "OK",
+      "leads": {
+        "total": 138,
+        "by_status": {
+          "In Process": 118,
+          "New": 4,
+          "Dead": 12,
+          "Recycled": 4
+        },
+        "by_source": {
+          "Campaign": 136,
+          "nie podano": 2
+        },
+        "new_last_7_days": 4
+      },
+      "opportunities": {
+        "by_stage": {
+          "2. Nie odbiera – ponawiam próby": 4,
+          "3. Rozmowa odbyta – ponowny kontakt": 3,
+          "Nie dotarł – wyjaśniam przyczynę": 2,
+          "Rezygnacja": 1
+        },
+        "amounts": [
+          {
+            "stage": "2. Nie odbiera – ponawiam próby",
+            "currency": "PLN",
+            "amount": 4000.0
+          },
+          {
+            "stage": "3. Rozmowa odbyta – ponowny kontakt",
+            "currency": "PLN",
+            "amount": 3000.0
+          },
+          {
+            "stage": "Nie dotarł – wyjaśniam przyczynę",
+            "currency": "PLN",
+            "amount": 2000.0
+          },
+          {
+            "stage": "Rezygnacja",
+            "currency": "PLN",
+            "amount": 1000.0
+          }
+        ],
+        "missing_amount": 0
+      }
+    },
+    "mailerlite": {
+      "status": "OK",
+      "campaigns": [
+        {
+          "label": "MNN2025 - Halloween 31.10.2026",
+          "sent_at": "2026-10-31T08:07:56+00:00",
+          "sent": 40,
+          "opens_pct": 17.5,
+          "clicks_pct": 0.0,
+          "unsub": 0,
+          "hard_bounce": 2,
+          "soft_bounce": 3
+        }
+      ]
+    },
+    "sellizer": {
+      "status": "OK",
+      "offers_sent": 0,
+      "recipients_sent": 0,
+      "page_opens": 0,
+      "recipients_opened": 0,
+      "opens_pct": null,
+      "scope": "visible_offers"
+    }
+  }
+}
